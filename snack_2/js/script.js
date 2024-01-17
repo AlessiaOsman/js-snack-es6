@@ -51,7 +51,7 @@ console.log(betterStudents)
 
 // Creo una lista degli studenti che hanno un totale di voti superiore a 70 e id superiore a 120
 
-const betterStudentsId = students.filter( student => student.Grades > 70 && student.Id > 120)
+const betterStudentsId = betterStudents.filter( Id => Id > 120)
 console.log(betterStudentsId)
 
 // Recupero elemento html
