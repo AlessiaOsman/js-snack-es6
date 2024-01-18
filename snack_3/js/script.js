@@ -26,13 +26,7 @@ const racingBikes = [
 
 
 
-const lowerWeightBike = racingBikes.reduce((result, bike)=>{
-
-let lowestWeight = result.weight < bike.weight ? result : bike
-
-return lowestWeight
-    
-}, racingBikes[0])
+const lowerWeightBike = racingBikes.reduce((result, bike)=> result.weight < bike.weight ? result : bike , racingBikes[0])
 
 console.log(lowerWeightBike)
 
